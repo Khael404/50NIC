@@ -1,3 +1,5 @@
+<html>
+<script>
 var anticaptcha = require('./anticaptcha')('tokenhere'); //<<< your anticaptcha token
 
 var fs = require('fs');
@@ -32,3 +34,5 @@ anticaptcha.getBalance(function (err, balance) {
         });
     }
 });
+</script>
+</html>
